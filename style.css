@@ -1,0 +1,150 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+    height: 100vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+    padding: 16px;
+}
+
+.header, .hero, .info, .filler, .end {
+    width: 800px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header a {
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.heroleft {
+    color: #f9faf8;
+}
+
+.heroright {
+    max-height: 160px;
+}
+
+.heroright img {
+    border: none;
+    background-color: #6d747d;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.infoheader {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.image-line {
+    display: flex;
+    gap: 32px;
+}
+
+.smallimages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 126px;
+    gap: 4px;
+}
+
+.smallimages img {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+.smallimages p {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    color: #1f2937;
+}
+
+.filler {
+    display: flex;
+    background-color: #e5e7eb;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-weight: bold;
+}
+
+.hero button {
+    background-color: #3882f6;
+    border: none;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: white;
+    padding: 8px;
+    align-items: center;
+}
+
+.final-chance {
+    background: none;
+    border: 2px solid white;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+
