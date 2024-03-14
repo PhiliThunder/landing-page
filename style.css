@@ -1,34 +1,59 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto:400,700');
 
 body {
-    height: 100vh;
+    height: 100%;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
 }
 
 .content {
     display: flex;
+    flex: auto;
     flex-direction: column;
+    margin-bottom: 16px;
     justify-content: space-between;
 }
 
-.header, .hero, .footer {
+.blue {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    gap: 16px;
+    padding: 16px;
+    width: 100%;
+}
+
+.footer {
     background-color: #1f2937;
     padding: 16px;
 }
 
-.header, .hero, .info, .filler, .end, .footer {
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.info, .filler, .end{
     width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     padding: 16px;
-}
-
-.header {
-    justify-content: space-between;
 }
 
 .logo {
@@ -123,8 +148,12 @@ a {
     color: #1f2937;
 }
 /*Section Change - Filler*/
-.filler {
+.gray {
     background-color: #e5e7eb;
+}
+
+.filler {
+    display: flex;
     flex-direction: column;
 }
 
@@ -137,7 +166,7 @@ a {
 .author {
     color: #1f2937;
     font-weight: bold;
-    text-align: right;
+    align-self: end;
     font-size: 18px;
 }
 /*Section Change - End*/
@@ -172,6 +201,10 @@ a {
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
+    width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    width: 100%;
 }
 
 button {
@@ -183,7 +216,4 @@ button {
 .hero button {
     background-color: #3882f6;
     border: none;
-
 }
-
-
